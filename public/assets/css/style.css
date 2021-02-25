@@ -1,0 +1,38 @@
+/* header */
+.bg-active {
+    background-color: #fb743e;
+    border-radius: 0 14px 14px 0;
+    /* opacity: .8; */
+}
+
+.bg-prim {
+    background-color: #383e56;
+    color: white;
+}
+
+.active {
+    color: #383e56;
+    font-weight: bold;
+}
+
+.text-pink {
+    color: #383e56;
+}
+
+.text-sec {
+    color: #9fb8ad;
+}
+
+.bg-orange {
+    background-color: #fb743e;
+    color: white;
+}
+
+.bg-outline-orange {
+    border-color: #fb743e;
+    color: #fb743e;
+}
+
+.trans {
+    transition-duration: 2s;
+}
