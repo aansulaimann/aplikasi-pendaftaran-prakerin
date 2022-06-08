@@ -195,7 +195,7 @@ function send($data) {
                 VALUES ('', '$id', '$pengirim_email', '$isi', '$subjek')";
 
     // Sending email
-    if(mail("aansulaiman92@gmail.com", "coba", "coba kirim email")){
+    if(mail("isi email sendiri", "coba", "coba kirim email")){
         // var_dump(mail($to, $subjek, $isi)); die;
         mysqli_query($conn, $query);
         return mysqli_affected_rows($conn);
